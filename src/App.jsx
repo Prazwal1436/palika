@@ -1,10 +1,14 @@
 
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Sidenav from './components/Sidenav';
 import Topnav from './components/Topnav';
+import Bibaran from './subcomponents/Bibaran';
+import Chalani from './subcomponents/Chalani';
+import SettingFs from './subcomponents/SettingFs';
 
 function App() {
 
@@ -26,7 +30,11 @@ function App() {
           <Topnav />
  
         <div className="container-fluid main-content-view">
-          <h1>This is sample for file system</h1>
+          <Routes>
+            <Route path="/bibaran" element={<Bibaran/>}/>
+            <Route path="/settingfile" element={<SettingFs/>}/>
+            <Route path="/chalani" element={<Chalani/>}/>
+          </Routes>
 
         </div>
         </div>

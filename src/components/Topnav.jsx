@@ -18,7 +18,7 @@ export default function Topnav() {
         <div> <div className="container-fluid collapse show collapse-Menu display-view" id="content-bar">
             <div className="content-navbar">
                 <div className="content-navbar-box d-flex">
-                    <Link to="bibaran.html">
+                    <Link to="/bibaran">
                         <div>
                             <img
                                 src={bibaranIco}
@@ -28,7 +28,7 @@ export default function Topnav() {
                         </div>
                     </Link>
 
-                    <Link to="setting.html">
+                    <Link to="/settingfile">
                         <div>
                             <img
                                 src={settingIco}
@@ -38,7 +38,7 @@ export default function Topnav() {
                         </div>
                     </Link>
 
-                    <Link to="chalani.html">
+                    <Link to="/chalani">
                         <div>
                             <img
                                 src={chalaniIco}
@@ -48,7 +48,7 @@ export default function Topnav() {
                         </div>
                     </Link>
 
-                    <Link to="rolemanager.html">
+                    <Link to="/rolemanager">
                         <div>
                             <img
                                 src={roleManagerIco}
@@ -57,7 +57,7 @@ export default function Topnav() {
                             <span className="navbar-box-title">रोल म्यानेज</span>
                         </div>
                     </Link>
-                    <Link to="usermanager.html">
+                    <Link to="/usermanager">
                         <div>
                             <img
                                 src={userManagerIco}
@@ -66,7 +66,7 @@ export default function Topnav() {
                             <span className="navbar-box-title">युजर म्यानेज</span>
                         </div>
                     </Link>
-                    <Link to="prayogkartabewastapan.html">
+                    <Link to="/prayogkartabewastapan">
                         <div>
                             <img
                                 src={pryogkartaBewastapanIco}
@@ -75,7 +75,7 @@ export default function Topnav() {
                             <span className="navbar-box-title">प्रयोगकर्ता समूहीकरण</span>
                         </div>
                     </Link>
-                    <Link to="namastemayor.html">
+                    <Link to="/namastemayor">
                         <div>
                             <img
                                 src={namasteMayorIco}
