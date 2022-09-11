@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Sidenav from './components/Sidenav';
 import Topnav from './components/Topnav';
+import Home from './pages/Home';
 import Login from './pages/Login';
 import Bibaran from './subcomponents/Bibaran';
 import Chalani from './subcomponents/Chalani';
@@ -33,8 +34,9 @@ function App() {
           <Topnav />
  
         <div className="container-fluid main-content-view">
+          
           <Routes>
-            <Route path="/" element={<></>}/>
+            <Route path="/" element={<Home/>}/>
             <Route path="/bibaran" element={<Bibaran/>}/>
             <Route path="/settingfile" element={<SettingFs/>}/>
             <Route path="/chalani" element={<Chalani/>}/>
